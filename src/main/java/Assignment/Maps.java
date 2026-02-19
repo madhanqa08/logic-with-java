@@ -1,5 +1,4 @@
 package Assignment;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -30,9 +29,8 @@ public class Maps
         String getEmailAttribute = emailField.getAttribute("placeholder");
         Assert.assertEquals(getEmailAttribute,"Email");
         Actions actions = new Actions(driver);
-        actions.moveToElement(emailField);
+        actions.moveToElement(emailField).build();
         String getField = emailField.getAttribute("validationMessage");
         System.out.println(getField);
-
     }
 }
