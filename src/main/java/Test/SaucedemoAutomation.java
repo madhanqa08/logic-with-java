@@ -52,7 +52,7 @@ public class SaucedemoAutomation
         List<WebElement> pricesList = driver.findElements(By.xpath("//div[@class='inventory_item_description']//div[@class='inventory_item_price']"));
         List<WebElement> e = driver.findElements(By.xpath("//button[@class='btn btn_primary btn_small btn_inventory ']"));
         for(int i = 0;i<pricesList.size();i++)
-        {;
+        {
             if(pricesList.get(i).getText().contains(String.valueOf(second_largset-1)))
             {
                 System.out.println("Hey ... "+pricesList.get(i));
