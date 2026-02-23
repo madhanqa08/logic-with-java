@@ -68,7 +68,7 @@ public class AmstrongNumber
             Ex : Ex : Program will run and print "The given number is not Armstrong Number"
             8. Verify the input using AlphaNumeric
             Ex : Ex : Throws error and print "Only Integer are allowed"
-            9. Verify the input using
+
          */
     }
 }
