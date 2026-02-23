@@ -69,6 +69,9 @@ public class AmstrongNumber
             8. Verify the input using AlphaNumeric
             Ex : Ex : Throws error and print "Only Integer are allowed"
 
+
+
+
          */
     }
 }
